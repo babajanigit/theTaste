@@ -1,0 +1,47 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 150px;
+    padding: 0 .8rem .8rem .8rem;
+    background-color: #fff;
+    border-radius: 30px;
+
+}
+
+.item img{
+    margin-top: -3.5rem;
+    height: 130px;
+    object-fit: contain;
+}
+
+.item-head_desc p{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.head_desc-name{
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    flex: 1;
+}
+
+.head_desc-info{
+    font-size: 0.8rem;
+    color: #a0a0a0;
+}
+
+.item-foot_desc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot_desc-price{
+    font-weight: 700;
+}
